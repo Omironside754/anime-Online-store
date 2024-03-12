@@ -1,0 +1,22 @@
+.search_from{
+    width: 40vw;
+    height: 25px;
+    padding: auto;
+}
+@media (max-width: 899px){
+ .search_from{
+     width: 40vw;
+ }  
+}
+
+.closeIcon  {
+  color: #ffffff;
+  font-size: 1.8rem;
+  transition: color 0.2s ease-in-out;
+}
+
+/* Apply the hover effect on the CloseOutlined icon */
+.closeIcon:hover {
+  color: #5a5959;
+}
+
